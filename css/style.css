@@ -4,9 +4,27 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
-    background-color: cornsilk;
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
     font-family: 'KyoboHandwriting2020A';
+    list-style: none;
+}
+body {
+    background-color: rgb(39, 5, 102);
+    color : whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+.center {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#clock {
+    font-size: 10rem;
 }
 
 .hidden {
